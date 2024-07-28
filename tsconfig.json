@@ -18,9 +18,9 @@
   },
   "include": [
     "mock/**/*",
-    "src/**/*",
+    // "src/**/*",
     "config/**/*",
-    ".umirc.ts",
+    ".umirc.js",
     "typings.d.ts"
   ],
   "exclude": [
@@ -28,6 +28,7 @@
     "lib",
     "es",
     "dist",
+    "src/**/*",
     "typings",
     "**/__test__",
     "test",

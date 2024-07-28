@@ -8,8 +8,9 @@ import { loginRule } from 'utils/rules';
 import AccountLogin from './component/AccountLogin';
 import SmCodeLogin from './component/SmCodeLogin';
 import logoImg from 'common/img/logo.svg';
-
 import { Form, Input, Checkbox, Button, Row, Col } from 'antd';
+import { useDispatch, useSelector } from 'umi';
+
 const login = () => {
   type FieldType = {
     username: string;
@@ -22,6 +23,9 @@ const login = () => {
   const [form] = Form.useForm();
 
   const [type, setType] = useState(0);
+
+  // const dispatch = useDispatch();
+  // const loading = useSelector((state) => state.loading);
 
   const submitInfo: FormProps<FieldType>['onFinishFailed'] = (data) => {
     console.log('data:', data);
