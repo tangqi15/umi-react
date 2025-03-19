@@ -1,9 +1,8 @@
-import React from 'react'
+// 职级管理界面
+import React from 'react';
 
 const level = () => {
-  return (
-    <div>职级管理界面 </div>
-  )
-}
+  return <div>职级管理界面 </div>;
+};
 
-export default level
+export default level;

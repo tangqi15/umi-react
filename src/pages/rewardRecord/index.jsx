@@ -1,9 +1,8 @@
-import React from 'react'
+// 奖惩记录
+import React from 'react';
 
 const rewardRecord = () => {
-  return (
-    <div>奖惩记录</div>
-  )
-}
+  return <div>奖惩记录</div>;
+};
 
-export default rewardRecord
+export default rewardRecord;

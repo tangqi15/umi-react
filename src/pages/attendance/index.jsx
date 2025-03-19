@@ -1,9 +1,8 @@
-import React from 'react'
+// 出勤统计
+import React from 'react';
 
-const index = () => {
-  return (
-    <div>index</div>
-  )
-}
+const attendance = () => {
+  return <div>出勤统计界面</div>;
+};
 
-export default index
+export default attendance;

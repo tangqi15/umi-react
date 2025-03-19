@@ -8,6 +8,7 @@ export default defineConfig({
   mock: false,
   publicPath: '/',
   dva: { immer: true, hmr: false },
+  // 定义别名
   alias: {
     api: resolve(__dirname, './src/servicer/'),
     components: resolve(__dirname, './src/components'),

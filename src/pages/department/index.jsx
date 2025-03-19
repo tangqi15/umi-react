@@ -1,9 +1,8 @@
-import React from 'react'
+// 部门管理
+import React from 'react';
 
 const department = () => {
-  return (
-    <div>员工管理界面</div>
-  )
-}
+  return <div>部门管理</div>;
+};
 
-export default department
+export default department;

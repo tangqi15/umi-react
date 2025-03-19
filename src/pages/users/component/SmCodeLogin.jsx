@@ -1,3 +1,4 @@
+// 手机号 验证码登录
 import React, { useState } from 'react';
 import IconMap from 'components/IconMap';
 import { loginRule } from 'utils/rules';
